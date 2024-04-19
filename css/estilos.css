@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url(../img/digitization-3614384_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: outfit;
+    font-weight: 400;
+    font-style: oblique;
+    padding: 25px;
+    margin-top: 325px;
+}
+.container-fluid {
+    color: aliceblue;
+    font-family: outfit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.error {
+    font-family: outfit;
+    font-weight: 400;
+    color: red;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: italic;
+    padding: 15px;
+    text-align: center;
+}
+h2 {
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+}
+.btn-primary:hover {
+    background-color: darkgreen;
+}
+.resultado {
+    color: aliceblue;
+    padding: 10px;
+}
+.pie {
+    font-family: outfit;
+    font-size: smaller;
+    text-align: center;
+    font-weight: 400;
+}
+.pie p {
+    margin: 5px;
+}
+
+@media screen and (max-width: 950px) {
+    .container-fluid {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container-fluid {
+        padding: 25px;
+    }
+}
